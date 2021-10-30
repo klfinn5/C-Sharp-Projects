@@ -1,0 +1,7 @@
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\github_assignment.cs\github_assignment.cs\bin\Debug\github_assignment.cs.exe.config
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\github_assignment.cs\github_assignment.cs\bin\Debug\github_assignment.cs.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\github_assignment.cs\github_assignment.cs\bin\Debug\github_assignment.cs.pdb
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\github_assignment.cs\github_assignment.cs\obj\Debug\github_assignment.cs.csproj.AssemblyReference.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\github_assignment.cs\github_assignment.cs\obj\Debug\github_assignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\github_assignment.cs\github_assignment.cs\obj\Debug\github_assignment.cs.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\github_assignment.cs\github_assignment.cs\obj\Debug\github_assignment.cs.pdb
