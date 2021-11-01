@@ -1,0 +1,7 @@
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\TA_DR.cs\TA_DR.cs\obj\Debug\TA_DR.cs.csproj.AssemblyReference.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\TA_DR.cs\TA_DR.cs\obj\Debug\TA_DR.cs.csproj.CoreCompileInputs.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\TA_DR.cs\TA_DR.cs\bin\Debug\TA_DR.cs.exe.config
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\TA_DR.cs\TA_DR.cs\bin\Debug\TA_DR.cs.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\TA_DR.cs\TA_DR.cs\bin\Debug\TA_DR.cs.pdb
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\TA_DR.cs\TA_DR.cs\obj\Debug\TA_DR.cs.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\TA_DR.cs\TA_DR.cs\obj\Debug\TA_DR.cs.pdb
