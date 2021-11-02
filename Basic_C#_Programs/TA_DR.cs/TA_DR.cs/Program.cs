@@ -32,6 +32,7 @@ namespace TA_DR.cs
             //page
             Console.WriteLine("What page are you on?");
             string pgNum = Console.ReadLine();
+            int page = Convert.ToInt32(pgNum);
             Console.ReadLine();
 
             //help
@@ -58,6 +59,7 @@ namespace TA_DR.cs
             //hours
             Console.WriteLine("How many hours did you study today?");
             string yourHours = Console.ReadLine();
+            int hours = Convert.ToInt32(yourHours);
             Console.ReadLine();
 
             //print
