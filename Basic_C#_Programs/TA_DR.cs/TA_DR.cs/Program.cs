@@ -37,16 +37,7 @@ namespace TA_DR.cs
 
             //help
             Console.WriteLine("Do you need help with anything? Please answer true or false.");
-            bool itsTrue = true;
-            if (itsTrue)
-            {
-                Console.WriteLine("True");
-            }
-            else
-            {
-                Console.WriteLine("False");
-            }
-            Console.ReadLine();
+            bool help = Convert.ToBoolean(Console.ReadLine());
 
             //experience
             Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics.");
