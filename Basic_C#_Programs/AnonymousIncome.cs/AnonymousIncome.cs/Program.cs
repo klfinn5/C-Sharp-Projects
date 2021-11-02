@@ -15,30 +15,34 @@ namespace AnonymousIncome.cs
 
             //person 1 info
             Console.WriteLine("Person 1");
-            int hourRate = 15;
-            int weekHours = 40;
-            Console.WriteLine("Hourly Rate? " + hourRate);
-            Console.WriteLine("Hours worked per week? " + weekHours);
+            Console.WriteLine("Hourly Rate? ");
+            string hourRate = Console.ReadLine();
+            int hr = Convert.ToInt32(hourRate);
+            Console.WriteLine("Hours worked per week? ");
+            string weekHours = Console.ReadLine();
+            int wk = Convert.ToInt32(weekHours);
             Console.ReadLine();
 
             //person 2 info
             Console.WriteLine("Person 2");
-            int hourRates = 20;
-            int weekHour = 40;
-            Console.WriteLine("Hourly Rate? " + hourRates);
-            Console.WriteLine("Hours worked per week? " + weekHour);
+            Console.WriteLine("Hourly Rate? ");
+            string hourRates = Console.ReadLine();
+            int hrs = Convert.ToInt32(hourRates);
+            Console.WriteLine("Hours worked per week? ");
+            string weekHour = Console.ReadLine();
+            int wks = Convert.ToInt32(weekHour);
             Console.ReadLine();
 
             //salary person 1
             Console.WriteLine("Annual salary of Person 1: ");
             int weeksInYear = 52;
-            int salary1 = (hourRate * weekHours * weeksInYear);
+            int salary1 = (hr * wks * weeksInYear);
             Console.WriteLine(salary1);
             Console.ReadLine();
 
             //salary person 2
             Console.WriteLine("Annual salary of Person 1: ");
-            int salary2 = (hourRates * weekHour * weeksInYear); 
+            int salary2 = (hrs * wk * weeksInYear);
             Console.WriteLine(salary2);
             Console.ReadLine();
 
