@@ -1,0 +1,7 @@
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\AnonymousIncome.cs\AnonymousIncome.cs\bin\Debug\AnonymousIncome.cs.exe.config
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\AnonymousIncome.cs\AnonymousIncome.cs\bin\Debug\AnonymousIncome.cs.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\AnonymousIncome.cs\AnonymousIncome.cs\bin\Debug\AnonymousIncome.cs.pdb
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\AnonymousIncome.cs\AnonymousIncome.cs\obj\Debug\AnonymousIncome.cs.csproj.AssemblyReference.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\AnonymousIncome.cs\AnonymousIncome.cs\obj\Debug\AnonymousIncome.cs.csproj.CoreCompileInputs.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\AnonymousIncome.cs\AnonymousIncome.cs\obj\Debug\AnonymousIncome.cs.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\AnonymousIncome.cs\AnonymousIncome.cs\obj\Debug\AnonymousIncome.cs.pdb
