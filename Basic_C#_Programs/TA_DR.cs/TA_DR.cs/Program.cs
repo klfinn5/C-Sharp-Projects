@@ -41,10 +41,12 @@ namespace TA_DR.cs
 
             //experience
             Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics.");
+            string exp = Console.ReadLine();
             Console.ReadLine();
 
             //feedback
             Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific.");
+            string feed = Console.ReadLine();
             Console.ReadLine();
 
             //hours
