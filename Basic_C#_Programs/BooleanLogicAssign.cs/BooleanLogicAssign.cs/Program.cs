@@ -27,7 +27,7 @@ namespace BooleanLogicAssign.cs
             Console.ReadLine();
 
             Console.WriteLine("Qualifed?");
-            bool qualify = (age > 15 && dui && tckt == 0);
+            bool qualify = (age > 15 && dui && tckt <= 3);
             Console.WriteLine("Qualified");
             Console.ReadLine();
 
