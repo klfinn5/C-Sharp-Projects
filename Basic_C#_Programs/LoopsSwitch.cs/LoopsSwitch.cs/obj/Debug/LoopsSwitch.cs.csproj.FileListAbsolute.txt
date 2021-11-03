@@ -1,0 +1,7 @@
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\LoopsSwitch.cs\LoopsSwitch.cs\bin\Debug\LoopsSwitch.cs.exe.config
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\LoopsSwitch.cs\LoopsSwitch.cs\bin\Debug\LoopsSwitch.cs.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\LoopsSwitch.cs\LoopsSwitch.cs\bin\Debug\LoopsSwitch.cs.pdb
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\LoopsSwitch.cs\LoopsSwitch.cs\obj\Debug\LoopsSwitch.cs.csproj.AssemblyReference.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\LoopsSwitch.cs\LoopsSwitch.cs\obj\Debug\LoopsSwitch.cs.csproj.CoreCompileInputs.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\LoopsSwitch.cs\LoopsSwitch.cs\obj\Debug\LoopsSwitch.cs.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\LoopsSwitch.cs\LoopsSwitch.cs\obj\Debug\LoopsSwitch.cs.pdb

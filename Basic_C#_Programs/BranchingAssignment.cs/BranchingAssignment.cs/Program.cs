@@ -24,29 +24,25 @@ namespace BranchingAssignment.cs
             {
                 Console.WriteLine("Please enter the package width:");
                 int width = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Please enter the package height:");
+                int height = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Please enter the package length:");
+                int length = Convert.ToInt32(Console.ReadLine());
+
+                int dimension = (weight + height + length);
+                int total = ((weight * height * length * weight) / 100);
+
+                Console.WriteLine("Your estimated total for shipping this package is: $" + total + ". Thank you!");
+
             }
-            Console.ReadLine();
-
-            Console.WriteLine("Please enter the package height:");
-            int height = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Please enter the package length:");
-            int length = Convert.ToInt32(Console.ReadLine());
-
-            int dimension = (weight + height + length);
-            int total = ((weight * height * length * weight) / 100);
-             
-
-            if ((dimension) > 50)
+            else if (dimension > 50)
             {
                 Console.WriteLine("Package too big to be shipped via Package Express.");
             }
             Console.ReadLine();
-            
-            Console.WriteLine("Your estimated total for shipping this package is: $" + total + ". Thank you!");
-            Console.ReadLine();
-
-
+         
 
         }
     }
