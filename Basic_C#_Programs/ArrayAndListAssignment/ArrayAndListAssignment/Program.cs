@@ -8,11 +8,12 @@ namespace ArrayAndListAssignment
     {
         static void Main()
         {
-
+            //string array
             Console.WriteLine("Please pick a number between 0 and 6");
-            Console.ReadLine();
+            int userIndex = Convert.ToInt32(Console.ReadLine()); //user input
 
-            string[] weekdays = new string[7];
+            string[] weekdays = new string[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" }; //create string
+            //adding elements
             weekdays[0] = "Monday";
             weekdays[1] = "Tuesday";
             weekdays[2] = "Wednesday";
@@ -21,27 +22,49 @@ namespace ArrayAndListAssignment
             weekdays[5] = "Saturday";
             weekdays[6] = "Sunday";
 
-            for (int i = 0; i < weekdays.Length; i++)
+            //error message 
+            if (userIndex > 6)
             {
-                Console.WriteLine(weekdays[i]);
+                Console.WriteLine("Doesn't exist");
             }
             Console.ReadLine();
 
-            //Console.WriteLine(weekdays[5]);
-            //Console.ReadLine();
-            
-            
-            
-            
-            //Console.WriteLine(weekdays[0]);
-            //Console.WriteLine(weekdays[1]);
-            //Console.WriteLine(weekdays[2]);
-            //Console.WriteLine(weekdays[3]);
-            //Console.WriteLine(weekdays[4]);
-            //Console.WriteLine(weekdays[5]);
-            //Console.WriteLine(weekdays[6]);
-            
+            //user input
+            Console.WriteLine(weekdays[userIndex]);
+            Console.ReadLine();
 
+
+            //int array
+            Console.WriteLine("Whats your lucky number? Pick between 0 and 3 ");
+            int Index = Convert.ToInt32(Console.ReadLine()); //user input
+
+            //adding elements
+            int[] lucky = new int[] { 3, 5, 13, 7 }; //create string
+            lucky[0] = 3;
+            lucky[1] = 5;
+            lucky[2] = 13;
+            lucky[3] = 7;
+
+            //error message
+            if (Index > 3)
+            {
+                Console.WriteLine("Doesn't exist");
+            }
+            Console.ReadLine();
+
+            Console.WriteLine(lucky[Index]);
+            Console.ReadLine();
+
+
+
+            //list
+            Console.WriteLine("What is a color that makes purple? Select 0 or 1");
+            int indexUser = Convert.ToInt32(Console.ReadLine());
+            List<string> colors = new List<string>(1);
+            colors.Add("Red");
+            colors.Add("Blue");
+            Console.WriteLine(colors[indexUser]);
+            Console.ReadLine();
 
 
 
