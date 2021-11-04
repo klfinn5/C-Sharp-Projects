@@ -21,8 +21,14 @@ namespace ArrayAndListAssignment
             weekdays[5] = "Saturday";
             weekdays[6] = "Sunday";
 
-            Console.WriteLine(weekdays[5]);
+            for (int i = 0; i < weekdays.Length; i++)
+            {
+                Console.WriteLine(weekdays[i]);
+            }
             Console.ReadLine();
+
+            //Console.WriteLine(weekdays[5]);
+            //Console.ReadLine();
             
             
             
