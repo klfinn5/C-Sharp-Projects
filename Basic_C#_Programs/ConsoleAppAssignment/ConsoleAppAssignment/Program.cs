@@ -13,7 +13,7 @@ namespace ConsoleAppAssignment
 
             Console.WriteLine("How many Ewoks live on Endor?");
             int number = Convert.ToInt32(Console.ReadLine());
-            bool ewok = number == 30000000;
+            bool ewok = false; 
             while (ewok)
             {
                 switch (number) //used to check values
@@ -33,7 +33,7 @@ namespace ConsoleAppAssignment
 
             Console.WriteLine("How many cups in a gallon?");
             int cups = Convert.ToInt32(Console.ReadLine());
-            bool answer = cups == 16; //correct answer
+            bool answer = false; //correct answer
 
             do //actually perform loop
             {
