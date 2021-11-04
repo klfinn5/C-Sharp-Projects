@@ -33,7 +33,7 @@ namespace ConsoleAppAssignment
 
             Console.WriteLine("How many cups in a gallon?");
             int cups = Convert.ToInt32(Console.ReadLine());
-            bool answer = false; //correct answer
+            bool answer = true; //correct answer
 
             do //actually perform loop
             {
@@ -41,7 +41,7 @@ namespace ConsoleAppAssignment
                 {
                     case 16:
                         Console.WriteLine("Correct! :)");
-                        answer = true; //flagging so it knows its correct
+                        answer = false; //flagging so it knows its correct
                         break;
                     default:
                         Console.WriteLine("Sorry, try again :(");
@@ -50,7 +50,7 @@ namespace ConsoleAppAssignment
                         break;
                 }
             }
-            while (!answer); //keep loop going can make it actually keep going *forever*
+            while (answer); //keep loop going can make it actually keep going *forever*
             Console.Read();
 
 
