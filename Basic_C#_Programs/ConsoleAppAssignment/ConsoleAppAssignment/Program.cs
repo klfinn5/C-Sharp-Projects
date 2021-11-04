@@ -14,7 +14,7 @@ namespace ConsoleAppAssignment
             Console.WriteLine("How many Ewoks live on Endor?");
             int number = Convert.ToInt32(Console.ReadLine());
             bool ewok = false; 
-            while (ewok)
+            while (!ewok)
             {
                 switch (number) //used to check values
                 {
@@ -50,7 +50,7 @@ namespace ConsoleAppAssignment
                         break;
                 }
             }
-            while (answer); //keep loop going can make it actually keep going *forever*
+            while (!answer); //keep loop going can make it actually keep going *forever*
             Console.Read();
 
 
