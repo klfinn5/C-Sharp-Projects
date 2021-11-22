@@ -1,0 +1,7 @@
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\6part\6part\bin\Debug\6part.exe.config
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\6part\6part\bin\Debug\6part.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\6part\6part\bin\Debug\6part.pdb
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\6part\6part\obj\Debug\6part.csproj.AssemblyReference.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\6part\6part\obj\Debug\6part.csproj.CoreCompileInputs.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\6part\6part\obj\Debug\6part.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\6part\6part\obj\Debug\6part.pdb
