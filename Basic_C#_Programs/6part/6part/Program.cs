@@ -28,8 +28,8 @@ namespace _6part
             //pt2
             Console.WriteLine("How many pigs hid from the Big Bad Wolf?");
             int number = Convert.ToInt32(Console.ReadLine());
-            bool pig = true;
-            while (!pig)
+            bool pig = false;
+            while (pig)
             {
                 switch (number) //used to check values
                 {
@@ -84,7 +84,7 @@ namespace _6part
             List<string> bugs = new List<string>() { "ants", "spiders", "bees", "mantis" };
             Console.WriteLine("What are some cool bugs?");
             string bug = Console.ReadLine();
-            
+
             foreach (string bug in bugs) //loop to add second string with var
             {
                 Console.WriteLine(bug); //var to link
