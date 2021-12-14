@@ -11,85 +11,120 @@ namespace _6part
         static void Main(string[] args)
         {
 
-            //pt1
-            List<string> animals = new List<string>() { "Giraffe", "Bat", "Moose" }; //first string
-            List<string> userAnimals = new List<string>(); //second string
+            ////default data is string
 
-            Console.WriteLine("Add an animal!");
-            string animal = Console.ReadLine();
-            animals.Add(animal); //add variable
+            ////pt1
+            //string[] animals = { "Giraffe", "Bat", "Moose" }; //first string, create string array
 
-            foreach (string added in animals) //loop to add second string with var
-            {
-                Console.WriteLine(added); //var to link
-            }
-            Console.ReadLine();
+            //Console.WriteLine("Add an animal!");
+            //string animal = Console.ReadLine(); //value assigned = accessing console = reads what user types = then assigns to variable
 
-            //pt2
-            Console.WriteLine("How many pigs hid from the Big Bad Wolf?");
-            int number = Convert.ToInt32(Console.ReadLine());
-            bool pig = false;
-            while (pig)
-            {
-                switch (number) //used to check values
-                {
-                    case 3:
-                        Console.WriteLine("You are correct!");
-                        pig = true; //correct
-                        break;
-                    default:
-                        Console.WriteLine("Wrong!");
-                        Console.WriteLine("How many pigs hid from the Big Bad Wolf?"); //will restate question
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
-                }
+            ////adding user input will save variables
+            //for (int i = 0; i < animals.Length; i++) // i targets index of array, length built in to know length of array stop for loop from excutingwhen i is > length array, end of actions in loop add 1 to i
+            //{
+            //    //Console.WriteLine(animals[i]); //will print original array no edits, take item in array add users input it and save in array, i = index, prints each item, animals array at index i 
+            //    animals[i] = animals[i] + animal; //add user input replaces item in array with new value, reassinging value
+            //    Console.WriteLine(animals[i]); //prints the actual replaced array
                 
-            }
+            //}
+            //Console.ReadLine();
 
-            //comparison 
-            Console.WriteLine("What temperatures are cold?");
-            List<int> worldTemp = new List<int>();
-            worldTemp.Add(98);
-            worldTemp.Add(75);
-            worldTemp.Add(112);
-            worldTemp.Add(32);
-            worldTemp.Add(65);
+            ////for vs foreach
+            ////index that targets array is that going to help me or do something to items in array, variable that targets array helps with replacing the value
 
-            foreach (int cold in worldTemp)
+            ////pt2
+            //int pig = 0;
+            //while (pig < 10)
+            //{
+            //    Console.WriteLine(pig);
+            //    pig++; //increment by 1 and fix infinite loop
+            //}
+
+            ////comparison pt3
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.ReadLine();
+
+            ////<= comparison
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.ReadLine();
+
+
+            ////unique string pt4
+            //List<string> bugs = new List<string>() { "ants", "spiders", "bees", "mantis" };
+            //Console.WriteLine("What are some cool bugs?");
+            //string bug = Console.ReadLine(); //user value
+            //bool found = false;
+
+            //for (int i = 0; i < bugs.Count; i++) //iterate through list, .count never changes
+            //{
+            //    if (bug == bugs[i]) //comparion equal = == , checking user input against current list element 
+            //    {
+            //        Console.WriteLine(i);
+            //        found = true;
+            //        break;
+            //    }
+            //}
+
+            //if (!found) //not found
+            //{
+            //    Console.WriteLine("I didn't find the bug " + bug + ".");
+            //}
+            //Console.ReadLine();
+
+            ////search lists pt5 want to get to end odf loop so no break duplicate at end 
+            //List<string> plants = new List<string>() { "pothos", "spider", "snake", "ivy", "ivy" };
+            //Console.WriteLine("What are some cool plants?");
+            //string leaf = Console.ReadLine(); //user value
+            //bool pound = false;
+
+            //for (int i = 0; i < plants.Count; i++) //iterate through list, .count never changes
+            //{
+            //    if (leaf == plants[i]) //comparion equal = == , checking user input against current list element 
+            //    {
+            //        Console.WriteLine(i);
+            //        pound = true;
+            //    }
+
+            //}
+
+            //if (!pound) //not pound
+            //{
+            //    Console.WriteLine("I didn't find the plant " + leaf + "."); //not in list message
+            //}
+            //Console.ReadLine();
+
+
+            //appeared or not pt6
+
+            List<string> meat = new List<string>() { "Ribeye", "Tenderloin", "Chuck", "Strip", "Strip" };
+            Console.WriteLine("Which meats are in stock?");
+
+            foreach (string m in meat)
             {
-                if (cold < 60)
+                if (meat.Count != meat.Distinct().Count())
                 {
-                    Console.WriteLine(cold + " is cold!");
+                    Console.WriteLine("Extra");
                 }
             }
             Console.ReadLine();
 
-            //<= comparison
-            Console.WriteLine("Which weights is a healthy weight?");
-            List<int> weight = new List<int>();
-            weight.Add(115);
-            weight.Add(200);
-            weight.Add(185);
 
-            foreach (int bf in weight)
-            {
-                if (bf <= 285)
-                {
-                    Console.WriteLine(bf + " is a healthy weight!");
-                }
-            }
-            Console.ReadLine();
+            //foreach (string m in meat)
+            //{
+            //    if (meat.Contains(m))
+            //    {
+            //        Console.WriteLine(m);
+            //    }
+            //}
+            //Console.ReadLine();
+            
 
-            //unique string
-            List<string> bugs = new List<string>() { "ants", "spiders", "bees", "mantis" };
-            Console.WriteLine("What are some cool bugs?");
-            string bug = Console.ReadLine();
-
-            foreach (string bug in bugs) //loop to add second string with var
-            {
-                Console.WriteLine(bug); //var to link
-            }
-            Console.ReadLine();
 
 
 
