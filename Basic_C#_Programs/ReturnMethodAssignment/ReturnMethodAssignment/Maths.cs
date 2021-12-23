@@ -8,8 +8,9 @@ namespace ReturnMethodAssignment
 {
     public class Maths
     {
+        
         //like filling out a form
-        public int three { get; } // "form" fields
+        public int three { get; } // "form" fields //int can only "get"
         public int two { get; }
         public int one { get; }
 

@@ -10,27 +10,19 @@ namespace ReturnMethodAssignment
     {
         static void Main(string[] args)
         {
-            Maths math = new Maths();
-            //math = Solve(math);
+            Maths math = new Maths(); //data type then variable
 
             Console.WriteLine("Enter a number.");
-            int sum = Convert.ToInt32(Console.ReadLine());
-            
+            int sum = Convert.ToInt32(Console.ReadLine()); //user input
 
-
-            //foreach (Maths learn in math)
-            //{
-            //    Console.WriteLine(learn);
-            //}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           u ..                                                              
-
-            Console.WriteLine(math.one);
+            //call methods using user input
+            Console.WriteLine(math.Cube(sum)); 
+            Console.WriteLine(math.Square(sum));
+            Console.WriteLine(math.Add2(sum));
             Console.ReadLine();
         }
 
-        //public static Maths Solve(Maths math)
-        //{
-        //    math.Maths 
-        //}
+       
         
  
 
