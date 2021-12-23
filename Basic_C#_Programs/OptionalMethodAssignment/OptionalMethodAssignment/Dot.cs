@@ -20,8 +20,6 @@ namespace OptionalMethodAssignment
 
         public double cow(double user)
         {
-            double all = user;
-            int doub = Convert.ToInt32(all); //convert decimals to int
             return user * 2;
         }
 

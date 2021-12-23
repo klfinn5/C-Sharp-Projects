@@ -1,0 +1,7 @@
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\MethodAssignmentOptional\MethodAssignmentOptional\obj\Debug\MethodAssignmentOptional.csproj.AssemblyReference.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\MethodAssignmentOptional\MethodAssignmentOptional\obj\Debug\MethodAssignmentOptional.csproj.CoreCompileInputs.cache
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\MethodAssignmentOptional\MethodAssignmentOptional\bin\Debug\MethodAssignmentOptional.exe.config
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\MethodAssignmentOptional\MethodAssignmentOptional\bin\Debug\MethodAssignmentOptional.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\MethodAssignmentOptional\MethodAssignmentOptional\bin\Debug\MethodAssignmentOptional.pdb
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\MethodAssignmentOptional\MethodAssignmentOptional\obj\Debug\MethodAssignmentOptional.exe
+C:\Users\klfin\OneDrive\Desktop\TA\c#\C-Sharp-Projects\Basic_C#_Programs\MethodAssignmentOptional\MethodAssignmentOptional\obj\Debug\MethodAssignmentOptional.pdb
