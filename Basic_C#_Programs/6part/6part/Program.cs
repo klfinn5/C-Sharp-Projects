@@ -101,19 +101,27 @@ namespace _6part
 
             //appeared or not pt6
 
-            List<string> meat = new List<string>() { "Ribeye", "Tenderloin", "Chuck", "Strip", "Strip" };
+            var meat = new List<string>() { "Ribeye", "Tenderloin", "Chuck", "Strip", "Strip" };
             Console.WriteLine("Which meats are in stock?");
 
-            foreach (string m in meat)
+            var distinct = new HashSet<string>(); //list objects
+            var duplicates = new HashSet<string>(); //objects listed more than once
+
+            foreach (var m in meat)
             {
-                if (meat.Count != meat.Distinct().Count())
+                if (distinct.Add(m))
                 {
                     Console.WriteLine(m);
+                }
+                if (!duplicates.Add(m)) //! makes sure that only the duplicates get this message
+                {
+                    Console.WriteLine(m + " Already in list");
                 }
             }
             Console.ReadLine();
 
 
+    
             //foreach (string m in meat)
             //{
             //    if (meat.Contains(m))
@@ -122,7 +130,7 @@ namespace _6part
             //    }
             //}
             //Console.ReadLine();
-            
+
 
 
 
