@@ -8,34 +8,30 @@ namespace OptionalMethodAssignment
 {
     public class Dot
     {
-        public int four { get; }
-        public int five { get; }
-        public int six { get; }
-
        
-        public int cow(int user)
+        public int cow(int steak) //int method
         {
-            return user + user;
+            return steak + steak; //addition operation
         }
 
-        public double cow(double user)
+        public decimal cow(decimal steak) //decimal operation
         {
-            return user * 2;
+            return steak; //decimal // cant use matih operations with decimal/double
         }
 
-       public string cow(string user)
+       public string cow(string steak) //string operations
         {
            try
             {
                 
-                int result = Int32.Parse(user); //convert string to int
-                Console.WriteLine(result - 1); //math operation
+                int result = Int32.Parse(steak); //convert string to int //try to convery string to int
+                Console.WriteLine(result - 1); //math operation //perform math operation if possible
             }
-            finally
+            finally //always execute block no matter what
             {
                 Console.ReadLine();
             }
-            return user; //return a value
+            return steak; //return a value
         }
 
        
